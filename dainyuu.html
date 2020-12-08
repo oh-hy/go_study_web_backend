@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
+    <title>Go Web Programming</title>
+</head>
+<body>
+<div>ドットの値{{.}}です</div>
+<div>
+    {{with "world"}}
+    ドットは今,{{.}}に設定されています。
+    {{end}}
+</div>
+<div>ドットの値は{{.}}に戻りました。</div>
+</body>
+</html>
